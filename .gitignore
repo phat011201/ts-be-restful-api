@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/database
+
+.env
+package-lock.json
+.prettier.json
