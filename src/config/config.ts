@@ -18,8 +18,8 @@ export const TESTING: boolean = NODE_ENV === "testing";
 /**
  * Server configuration
  */
-export const DOMAIN: string = process.env.DOMAIN as string;
 export const PORT: number = parseInt(process.env.PORT as string, 10) || 3000;
+export const DOMAIN: string = `${PORT}-${process.env.WEB_HOST}`;
 
 /**
  * JWT configuration

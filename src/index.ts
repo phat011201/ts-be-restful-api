@@ -48,7 +48,7 @@ const app = express();
     const server = new Server(app);
     server.listen(PORT, () => {
         LOGGER.log("----------------------------------------");
-        LOGGER.log(`Server is running on http://${DOMAIN}:${PORT}`);
+        LOGGER.log(`Server is running on http://${DOMAIN}`);
         LOGGER.log("----------------------------------------");
     });
 })();

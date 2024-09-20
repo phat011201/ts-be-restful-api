@@ -7,7 +7,7 @@ import { Controller } from "#module/controller";
  */
 export class CheckHealthController extends Controller {
     constructor() {
-        super("/check-health");
+        super("/");
 
         this.get("", this.helloWorld);
     }
